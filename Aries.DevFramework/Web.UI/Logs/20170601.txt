@@ -1,0 +1,130 @@
+http://localhost:27532/login.html
+---------------------------------------
+V5.7.7.2 Record On : 2017-06-01 15:38:30 http://localhost:27532/login.html
+---------------------------------------
+
+[Exception]:没有为扩展名“.html”注册的生成提供程序。可以在 machine.config 或 web.config 中的 <compilation><buildProviders> 节注册一个。请确保所注册的提供程序具有包含值“Web”或“All”的 BuildProviderAppliesToAttribute 特性。:
+   在 System.Web.Compilation.CompilationUtil.GetBuildProviderTypeFromExtension(CompilationSection config, String extension, BuildProviderAppliesTo neededFor, Boolean failIfUnknown)
+   在 System.Web.Compilation.BuildManager.CreateBuildProvider(VirtualPath virtualPath, BuildProviderAppliesTo neededFor, CompilationSection compConfig, ICollection referencedAssemblies, Boolean failIfUnknown)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 System.Web.Compilation.CompilationUtil.GetBuildProviderTypeFromExtension(CompilationSection config, String extension, BuildProviderAppliesTo neededFor, Boolean failIfUnknown)
+   在 System.Web.Compilation.BuildManager.CreateBuildProvider(VirtualPath virtualPath, BuildProviderAppliesTo neededFor, CompilationSection compConfig, ICollection referencedAssemblies, Boolean failIfUnknown)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:41:32 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:42:00 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:48:50 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:49:30 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:49:56 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+V5.7.7.2 Record On : 2017/6/1 16:52:07 http://localhost/webui/Web/SysAdmin/UserList.html
+---------------------------------------
+
+[Exception]:No permission to view this page！:
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 Aries.Core.Auth.Permission.CheckMenu(Uri uri) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 185
+   在 Aries.Core.Auth.Permission..ctor(String loginID, Boolean checkMenu) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\Auth\Permission.cs:行号 170
+   在 Aries.Core.UrlRewrite.AuthCheck(Boolean isIndex) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 105
+   在 Aries.Core.UrlRewrite.context_BeginRequest(Object sender, EventArgs e) 位置 G:\aries\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:行号 67
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
