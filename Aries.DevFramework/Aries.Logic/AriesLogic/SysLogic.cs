@@ -385,7 +385,7 @@ namespace Aries.Logic
         {
             if (!string.IsNullOrEmpty(parentID))
             {
-                MDataRowCollection rows = dt.FindAll(parentName + "='" + parentID + "'");
+                List<MDataRow> rows = dt.FindAll(parentName + "='" + parentID + "'");
                 if (rows != null)
                 {
                     string id = string.Empty;

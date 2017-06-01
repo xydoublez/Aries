@@ -227,7 +227,7 @@ namespace Aries.Core.Auth
         /// <returns></returns>
         private static bool HasChild(string menuID, MDataTable menuDt, Dictionary<string, string> dic)
         {
-            MDataRowCollection childs = menuDt.FindAll("ParentMenuID='" + menuID + "'");
+            List<MDataRow> childs = menuDt.FindAll("ParentMenuID='" + menuID + "'");
             if (childs != null && childs.Count > 0)
             {
                 bool result = false;
